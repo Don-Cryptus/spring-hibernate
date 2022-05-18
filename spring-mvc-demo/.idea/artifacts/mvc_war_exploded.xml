@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="demo:war exploded">
-    <output-path>$PROJECT_DIR$/target/demo-1.0-SNAPSHOT</output-path>
+  <artifact type="exploded-war" name="mvc:war exploded">
+    <output-path>$PROJECT_DIR$/target/mvc-1.0-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>demo</module>
+        <module>mvc</module>
         <packaging>war</packaging>
       </options>
     </properties>
@@ -12,20 +12,23 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="spring-mvc-demo" />
+          <element id="directory" name="resources">
+            <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+          </element>
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="hibernate-validator-6.2.3.Final" />
-          <element id="library" level="application" name="javax.servlet.jsp.jstl-1.2.1" />
-          <element id="library" level="application_server_libraries" name="Tomcat 9.0.62" />
+          <element id="library" level="project" name="hibernate" />
+          <element id="library" level="project" name="spring" />
+          <element id="library" level="project" name="server" />
         </element>
         <element id="directory" name="view">
           <element id="dir-copy" path="$PROJECT_DIR$/src/main/webapp" />
         </element>
+        <element id="file-copy" path="$PROJECT_DIR$/WEB-INF/spring-mvc-demo-servlet.xml" />
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/demo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="dir-copy" path="$PROJECT_DIR$/META-INF" />
       </element>
-      <element id="javaee-facet-resources" facet="demo/web/Web" />
     </root>
   </artifact>
 </component>
