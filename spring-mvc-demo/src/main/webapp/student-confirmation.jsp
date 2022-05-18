@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: don
@@ -13,6 +14,23 @@
 <body>
 
 The student is confirmed: ${student.firstName} ${student.lastName}
+<br><br>
+
+Country: ${student.country}
+
+<br><br>
+
+Favorite Language: ${student.favoriteLanguage}
+
+<br><br>
+
+Operating Systems:
+
+<ul>
+    <c:forEach items="${student.operatingSystems}" var="os">
+        <li>${os}</li>
+    </c:forEach>
+</ul>
 
 </body>
 </html>
