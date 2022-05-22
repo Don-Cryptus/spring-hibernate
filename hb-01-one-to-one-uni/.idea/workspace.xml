@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3904d488-261e-4dd2-a3cf-d3ddcb863e4d" name="Changes" comment="hibernate crud">
-      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/src/main/java/com/hibernate/entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/src/main/java/com/hibernate/entity/InstructorDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/entity/InstructorDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.40137222&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/MEGA/Projects/spring-hibernate/hb-01-one-to-one-uni",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.40137222",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\MEGA\Projects\spring-hibernate\hibernate-tutorial\src\main\resources" />
@@ -67,14 +67,14 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean" />
       <command value="mvn install" />
+      <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteStudentDemo">
-    <configuration name="DeleteStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibernate.DeleteStudentDemo" />
-      <module name="hibernate-tutorial" />
+  <component name="RunManager" selected="Application.CreateDemo">
+    <configuration name="CreateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.CreateDemo" />
+      <module name="hb-01-one-to-one-uni" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hibernate.*" />
@@ -85,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimaryKeyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibernate.PrimaryKeyDemo" />
+    <configuration name="DeleteStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.DeleteStudentDemo" />
       <module name="hibernate-tutorial" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibernate.ReadStudentDemo" />
-      <module name="hibernate-tutorial" />
+    <configuration name="TestJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jdbc.TestJdbc" />
+      <module name="hb-01-one-to-one-uni" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hibernate.*" />
+          <option name="PATTERN" value="com.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeleteStudentDemo" />
-        <item itemvalue="Application.UpdateStudentDemo" />
-        <item itemvalue="Application.QueryStudentDemo" />
-        <item itemvalue="Application.ReadStudentDemo" />
-        <item itemvalue="Application.PrimaryKeyDemo" />
+        <item itemvalue="Application.CreateDemo" />
+        <item itemvalue="Application.TestJdbc" />
+        <item itemvalue="Application.com.hibernate.DeleteStudentDemo" />
+        <item itemvalue="Application.com.hibernate.UpdateStudentDemo" />
+        <item itemvalue="Application.com.hibernate.QueryStudentDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +157,7 @@
       <updated>1653169031643</updated>
       <workItem from="1653169032954" duration="1407000" />
       <workItem from="1653227047089" duration="7492000" />
-      <workItem from="1653256617257" duration="132000" />
+      <workItem from="1653252203358" duration="5134000" />
     </task>
     <task id="LOCAL-00001" summary="hibernate crud">
       <created>1653250262733</created>
