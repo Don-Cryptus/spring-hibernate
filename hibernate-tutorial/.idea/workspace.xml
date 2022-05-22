@@ -4,47 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3904d488-261e-4dd2-a3cf-d3ddcb863e4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/CreateStudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/DeleteStudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/PrimaryKeyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/QueryStudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/ReadStudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/UpdateStudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolapp/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolapp/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolapp/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolapp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolapp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolapp/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolapp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolapp/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolapp/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolwebapp/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolwebapp/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolwebapp/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolwebapp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolwebapp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolwebapp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolwebapp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycoolwebapp/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../mycoolwebapp/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate-tutorial.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdbc/TestJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdbc/TestJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jdbc/hibernate/demo/enitity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3904d488-261e-4dd2-a3cf-d3ddcb863e4d" name="Changes" comment="hibernate crud" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,8 +152,16 @@
       <option name="presentableId" value="Default" />
       <updated>1653169031643</updated>
       <workItem from="1653169032954" duration="1407000" />
-      <workItem from="1653227047089" duration="6422000" />
+      <workItem from="1653227047089" duration="6774000" />
     </task>
+    <task id="LOCAL-00001" summary="hibernate crud">
+      <created>1653250262733</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653250262733</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,5 +182,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hibernate crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="hibernate crud" />
   </component>
 </project>
