@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3904d488-261e-4dd2-a3cf-d3ddcb863e4d" name="Changes" comment="hb-03-one-to-many finished">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/EagerLazyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/FetchJoinDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hb-03-one-to-one-many/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hb-03-one-to-one-many/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/MEGA/Projects/spring-hibernate/hb-03-one-to-one-many",
+    "last_opened_file_path": "C:/MEGA/Projects/spring-hibernate/hb-eager-vs-lazy-demo",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -69,22 +71,9 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteCoursesDemo">
+  <component name="RunManager" selected="Application.FetchJoinDemo">
     <configuration name="CreateCoursesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hibernate.CreateCoursesDemo" />
-      <module name="hb-03-one-to-one-many" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hibernate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateInstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibernate.CreateInstructorDemo" />
       <module name="hb-03-one-to-one-many" />
       <extension name="coverage">
         <pattern>
@@ -109,6 +98,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EagerLazyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.EagerLazyDemo" />
+      <module name="hb-eager-vs-lazy-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FetchJoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.FetchJoinDemo" />
+      <module name="hb-eager-vs-lazy-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetInstructorCoursesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hibernate.GetInstructorCoursesDemo" />
       <module name="hb-03-one-to-one-many" />
@@ -122,26 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetInstructorDetailDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibernate.GetInstructorDetailDemo" />
-      <module name="hb-02-one-to-one-bi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hibernate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FetchJoinDemo" />
+        <item itemvalue="Application.EagerLazyDemo" />
         <item itemvalue="Application.DeleteCoursesDemo" />
         <item itemvalue="Application.GetInstructorCoursesDemo" />
         <item itemvalue="Application.CreateCoursesDemo" />
-        <item itemvalue="Application.CreateInstructorDemo" />
-        <item itemvalue="Application.GetInstructorDetailDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +161,7 @@
       <workItem from="1653336246595" duration="747000" />
       <workItem from="1653337201204" duration="2903000" />
       <workItem from="1653340199135" duration="2701000" />
+      <workItem from="1653342982721" duration="1093000" />
     </task>
     <task id="LOCAL-00001" summary="hibernate crud">
       <created>1653250262733</created>
