@@ -45,12 +45,18 @@
           <element id="library" level="project" name="Maven: com.sun.xml.fastinfoset:FastInfoset:1.2.15" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.29" />
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.19.4" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/web-customer-tracker-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="web-customer-tracker/web/Web" />
+      <element id="directory" name="resources">
+        <element id="directory" name="css">
+          <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources/css" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
