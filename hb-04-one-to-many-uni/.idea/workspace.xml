@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3904d488-261e-4dd2-a3cf-d3ddcb863e4d" name="Changes" comment="hb-eager-vs-lazy finished" />
+    <list default="true" id="3904d488-261e-4dd2-a3cf-d3ddcb863e4d" name="Changes" comment="hb-eager-vs-lazy finished">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/CreateCoursesAndReviewsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/DeleteCoursesAndReviewsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/GetCoursesAndReviewsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/entity/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hb-eager-vs-lazy-demo/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,9 +47,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/MEGA/Projects/spring-hibernate/hb-eager-vs-lazy-demo",
+    "last_opened_file_path": "C:/MEGA/Projects/spring-hibernate/hb-04-one-to-many-uni",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.40137222",
     "settings.editor.selected.configurable": "MavenSettings"
@@ -67,10 +73,10 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.FetchJoinDemo">
-    <configuration name="CreateCoursesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibernate.CreateCoursesDemo" />
-      <module name="hb-03-one-to-one-many" />
+  <component name="RunManager" selected="Application.DeleteCoursesAndReviewsDemo">
+    <configuration name="CreateCoursesAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.CreateCoursesAndReviewsDemo" />
+      <module name="hb-04-one-to-many-uni" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hibernate.*" />
@@ -81,9 +87,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteCoursesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibernate.DeleteCoursesDemo" />
-      <module name="hb-03-one-to-one-many" />
+    <configuration name="DeleteCoursesAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.DeleteCoursesAndReviewsDemo" />
+      <module name="hb-04-one-to-many-uni" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hibernate.*" />
@@ -120,9 +126,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetInstructorCoursesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibernate.GetInstructorCoursesDemo" />
-      <module name="hb-03-one-to-one-many" />
+    <configuration name="GetCoursesAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.GetCoursesAndReviewsDemo" />
+      <module name="hb-04-one-to-many-uni" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hibernate.*" />
@@ -135,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteCoursesAndReviewsDemo" />
+        <item itemvalue="Application.GetCoursesAndReviewsDemo" />
+        <item itemvalue="Application.CreateCoursesAndReviewsDemo" />
         <item itemvalue="Application.FetchJoinDemo" />
         <item itemvalue="Application.EagerLazyDemo" />
-        <item itemvalue="Application.DeleteCoursesDemo" />
-        <item itemvalue="Application.GetInstructorCoursesDemo" />
-        <item itemvalue="Application.CreateCoursesDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +164,8 @@
       <workItem from="1653337201204" duration="2903000" />
       <workItem from="1653340199135" duration="2701000" />
       <workItem from="1653342982721" duration="1358000" />
+      <workItem from="1653344458922" duration="28000" />
+      <workItem from="1653411316723" duration="3362000" />
     </task>
     <task id="LOCAL-00001" summary="hibernate crud">
       <created>1653250262733</created>
