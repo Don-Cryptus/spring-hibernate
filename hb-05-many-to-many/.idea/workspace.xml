@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3904d488-261e-4dd2-a3cf-d3ddcb863e4d" name="Changes" comment="hb-04-one-to-many-uni finished">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/AddCoursesForMaryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/DeleteCoursesForMaryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/DeleteMaryStudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/GetCoursesForMaryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hb-04-one-to-many-uni/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3904d488-261e-4dd2-a3cf-d3ddcb863e4d" name="Changes" comment="hb-05-many-to-many finished" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +160,7 @@
       <workItem from="1653342982721" duration="1358000" />
       <workItem from="1653344458922" duration="28000" />
       <workItem from="1653411316723" duration="3434000" />
-      <workItem from="1653415440039" duration="3915000" />
+      <workItem from="1653415440039" duration="4310000" />
     </task>
     <task id="LOCAL-00001" summary="hibernate crud">
       <created>1653250262733</created>
@@ -219,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653415358224</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hb-05-many-to-many finished">
+      <created>1653420478097</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653420478097</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +247,7 @@
     <MESSAGE value="hb-03-one-to-many finished" />
     <MESSAGE value="hb-eager-vs-lazy finished" />
     <MESSAGE value="hb-04-one-to-many-uni finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="hb-04-one-to-many-uni finished" />
+    <MESSAGE value="hb-05-many-to-many finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="hb-05-many-to-many finished" />
   </component>
 </project>
