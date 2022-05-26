@@ -53,9 +53,7 @@
       </element>
       <element id="javaee-facet-resources" facet="web-customer-tracker/web/Web" />
       <element id="directory" name="resources">
-        <element id="directory" name="css">
-          <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources/css" />
-        </element>
+        <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
       </element>
     </root>
   </artifact>
