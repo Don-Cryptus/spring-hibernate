@@ -12,7 +12,11 @@ public class AccountDAO {
 	private String name;
 	private String serviceCode;
 
-	public List<Account> findAccounts() {
+	public List<Account> findAccounts(boolean tripWire) {
+		if(tripWire) {
+			throw new RuntimeException("AccountDAO: BOOM!");
+		}
+
 		List<Account> myAccounts = new ArrayList<Account>();
 
 		Account temp1 = new Account("John", "Silver");

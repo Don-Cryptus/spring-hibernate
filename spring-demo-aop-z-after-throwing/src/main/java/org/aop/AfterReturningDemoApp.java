@@ -1,7 +1,6 @@
 package org.aop;
 
 import org.aop.dao.AccountDAO;
-import org.aop.dao.MembershipDAO;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.List;
@@ -18,7 +17,7 @@ public class AfterReturningDemoApp {
 		// get the bean from spring container
 		AccountDAO theAccountDAO = context.getBean("accountDAO", AccountDAO.class);
 		
-		List<Account> theAccounts = theAccountDAO.findAccounts();
+		List<Account> theAccounts = theAccountDAO.findAccounts(false);
 
 		System.out.println("\n\nMain Program: AfterReturningDemoApp.main()");
 		System.out.println("----");
